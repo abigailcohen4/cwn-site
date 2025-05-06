@@ -58,21 +58,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-#root,
-html,
-body {
-  margin: 0;
-}
-
-.map-container{
-  width: 100vw; 
-  height: 80vh; 
-}
-
-arcgis-map {
-  display: block;
-  /* height: 100vh; */
-}
 
 @media (prefers-color-scheme: light) {
   :root {
