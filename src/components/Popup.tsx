@@ -1,38 +1,43 @@
 import styled from "styled-components"
 
 const Styles = {
-    Popup: styled.div`{
+    Popup: styled.div`
         position: absolute; 
         left: 0; 
         right: 0; 
+        top: 30vh;
+        height: fit-content;
+        width: 50vw;
         margin-inline: auto; 
-        width: fit-content;
       
         border-style: solid; 
-        border-color: whitesmoke;
-        border-width: 10px;
+        border-color: darkgray;
+        border-width: 0.5vw;
+        padding: 1vw;
+
         background-color: whitesmoke;
       
         z-index: 10; 
       
-        display: flex;
         vertical-align: middle;
-        justify-content: center;
-        align-items: center;
-      }`
+
+        margin: auto;
+        
+        margin: auto;
+    `
 }
 
 const closePopup = () => { 
-    const pup = document.getElementById("Popup");
-    if (pup) {
-        pup.style.display = "none";
+    const popupElement = document.getElementById("content")?.parentElement;
+    if (popupElement) {
+        popupElement.style.display = "none";
     }
-  }
+}
 
 const Popup = ( ) => {
     return(
         <Styles.Popup> 
-            <div id="myPopup">
+            <div id="content">
                 <h3>Welcome to the Community Wireless Network Simulator!</h3>
                 <p>Use this map to model potential community wireless networks. </p>
                 <button onClick={closePopup}> Close </button>
