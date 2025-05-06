@@ -1,4 +1,3 @@
-import React from 'react'
 import "@arcgis/map-components/dist/components/arcgis-map"
 
 const Map = ( ) => {

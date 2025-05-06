@@ -64,26 +64,6 @@ body {
   margin: 0;
 }
 
-.popup {
-  position: absolute; 
-  left: 0; 
-  right: 0; 
-  margin-inline: auto; 
-  width: fit-content;
-
-  border-style: solid; 
-  border-color: whitesmoke;
-  border-width: 10px;
-  background-color: whitesmoke;
-
-  z-index: 10; 
-
-  display: flex;
-  vertical-align: middle;
-  justify-content: center;
-  align-items: center;
-}
-
 .map-container{
   width: 100vw; 
   height: 80vh; 
