@@ -16,11 +16,9 @@ const Styles = {
 const Menu = () => {
     return (
         <Styles.Menu>
-            <div>
-                <Tab link={"/"} text="Home" /> |
-                <Tab link={"../pages/CWNsNearby.tsx"} text="CWNs Nearby" /> |
-                <Tab link={"../pages/Theory.tsx"} text="Theoretical Analysis" />
-            </div>
+            <Tab link={"/"} text="Home" /> |
+            <Tab link={"../pages/CWNsNearby.tsx"} text="CWNs Nearby" /> |
+            <Tab link={"../pages/Theory.tsx"} text="Theoretical Analysis" />
         </Styles.Menu>
     )
 }
