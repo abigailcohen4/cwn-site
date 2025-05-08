@@ -1,6 +1,10 @@
 #root {
   margin: 0 auto;
-  text-align: center;
+}
+
+body{
+  background-color: #19286E;
+  color: #213547; 
 }
 
 .logo {
@@ -14,6 +18,20 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+h1, h2, h3, p{
+  color: white;
+
+}
+    
+h1{
+    text-align: center; 
+    font-size: 10vw; 
+}
+
+p{
+  font-size: 1vw; 
 }
 
 @keyframes logo-spin {
