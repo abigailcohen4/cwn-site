@@ -1,34 +1,40 @@
-import { use, useEffect, useState } from 'react'
 import './App.css'
-import Popup from './components/Popup'
-import Map from './components/Scene'
 import Menu from './components/Menu'
+import Simulator from './pages/Simulator'
+import CWNsNearby from './pages/CWNsNearby'
+import Theory from './pages/Theory'
+import About from './pages/About'
+
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 
 // tutorial - when close popup, choose start tutorial or not 
 
 function App() {
-  const [popupNum, setPopupNum] = useState(1)
-
-  useEffect(() => {
-      if (popupNum === 0) {
-          const popupElement = document.getElementById("popup");
-          if (popupElement) {
-            popupElement.style.display = "none";
-        }
-      }
-  })
-
+  
   return (
     <>
-      <Menu />
-      <div id="popup" style={{display: popupNum > 0 ? "block" : "none"}}>
-        <Popup popupNum={popupNum} setPopup={setPopupNum}/>
-      </div>
-      {/* <div style={{display: tutorial ? "block" : "none"}}> 
-        <Tutorial />
-      </div> */}
-      <Map />
+      <Router>
+        <Menu />
+        <Routes> 
+                <Route path="/" element={<Simulator />} />
+                <Route path="/cwnsnearby" element={<CWNsNearby />} />
+                <Route
+                    path="/theory"
+                    element={<Theory />}
+                />
+                <Route
+                    path="/about"
+                    element={<About />}
+                />
+        </Routes>
+      </Router>
+      
     </>
   )
 }
