@@ -4,7 +4,7 @@ import Simulator from './pages/Simulator'
 import CWNsNearby from './pages/CWNsNearby'
 import Theory from './pages/Theory'
 import About from './pages/About'
-
+import How from './pages/How'
 
 import {
   BrowserRouter as Router,
@@ -31,6 +31,10 @@ function App() {
                 <Route
                     path="/about"
                     element={<About />}
+                />
+                <Route
+                    path="/how"
+                    element={<How />}
                 />
         </Routes>
       </Router>
