@@ -7,7 +7,6 @@ const Styles = {
     h1{
         color: white;
         text-align: center; 
-        font-size: 2vw; 
         }`
     
 }

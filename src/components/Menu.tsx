@@ -23,7 +23,6 @@ const Styles = {
         a{
             text-decoration: none; 
             color: white; 
-            font-size: 1.5vw; 
             font-weight: bold; 
         }
         a:hover{
