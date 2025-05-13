@@ -1,19 +1,14 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import SceneView from "@arcgis/core/views/SceneView.js";
 import WebScene from "@arcgis/core/WebScene.js";
 
 import LineOfSight from "@arcgis/core/widgets/LineOfSight.js";
 import LineOfSightAnalysis from "@arcgis/core/analysis/LineOfSightAnalysis.js";
-import LineOfSightAnalysisObserver from "@arcgis/core/analysis/LineOfSightAnalysisObserver.js";
-import LineOfSightAnalysisTarget from "@arcgis/core/analysis/LineOfSightAnalysisTarget.js";
-import LineOfSightAnalysisView3D from "@arcgis/core/views/3d/analysis/LineOfSightAnalysisView3D.js";
 
 import Legend from "@arcgis/core/widgets/Legend.js";
 import Editor from "@arcgis/core/widgets/Editor.js";
-import LOSanalysis from './LOSanalysis'
 
 import styled from "styled-components";
-import { createRoot } from "react-dom/client"
 
 const Styles = {
     Scene: styled.div`
