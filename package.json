@@ -1,13 +1,15 @@
 {
   "name": "cwn-site",
-  "private": true,
+  "homepage": "https://abigailcohen4.github.io/cwn-site/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview", 
+    "predeploy": "yarn build", 
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@arcgis/core": "^4.32.10",
