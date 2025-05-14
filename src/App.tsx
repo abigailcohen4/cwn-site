@@ -19,7 +19,7 @@ function App() {
   
   return (
     <>
-      <Router basename="/cwn-site">
+      <Router>
         <Menu />
         <Routes> 
                 <Route path="/" element={<Simulator />} />
