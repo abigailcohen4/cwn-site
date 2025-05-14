@@ -1,14 +1,16 @@
 import styled from "styled-components"
-import Intro from "./PopupContent"
+import Content from "./PopupContent"
 
 const Styles = {
     Popup: styled.div`
         position: absolute; 
         left: 0; 
         right: 0; 
-        top: 30vh;
+        top: 15vh;
         height: fit-content;
-        width: 50vw;
+        max-height: 70vh; 
+
+        width: 30vw;
         margin-inline: auto; 
       
         border-style: solid; 
@@ -40,14 +42,10 @@ interface PopupProps {
 const Popup = ({ popupNum, setPopup }: PopupProps) => {
     return(
         <Styles.Popup> 
-            <div id="content">
-                <Intro popupNum={popupNum} />
-                {/* {popupNum === 1 && <Intro />}
-                {popupNum === 2 && <PopupOne />} */}
-                {/* {popupNum === 3 && <PopupTwo />} */}
-                <button onClick={() => setPopup((popupNum+1))}> Start Tutorial </button>
-                <button onClick={() => (closePopup(setPopup))}> Close </button>
-            </div>
+            <Content popupNum={popupNum} />
+            { popupNum === 1 && <button onClick={() => setPopup((popupNum+1))}> Start Tutorial </button>}
+            { popupNum >1 && popupNum <5 && <button onClick={() => setPopup((popupNum+1))}> Next </button>}
+            <button onClick={() => (closePopup(setPopup))}> Close </button>
         </Styles.Popup>
     )
 }
