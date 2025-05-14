@@ -7,7 +7,7 @@ import About from './pages/About'
 import How from './pages/How'
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -22,7 +22,7 @@ function App() {
       <Router>
         <Menu />
         <Routes> 
-                <Route path="/" element={<Simulator />} />
+                <Route path="/cwn-site" element={<Simulator />} />
                 <Route path="/cwnsnearby" element={<CWNsNearby />} />
                 <Route
                     path="/theory"
