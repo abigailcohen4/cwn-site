@@ -1,1 +1,0 @@
-import{eA as f,eB as t}from"./index-BZBPR1M1.js";function n(e,u){return u.push(e.buffer),{buffer:e.buffer,layout:new f(e.layout)}}function o(e){return new t(e.layout).createView(e.buffer)}export{o as t,n as u};
