@@ -19,11 +19,11 @@ function App() {
   
   return (
     <>
-      <Router>
+      <Router basename="/cwn-site">
         <Menu />
         <Routes> 
                 <Route path="/cwn-site" element={<Simulator />} />
-                <Route path="/cwnsnearby" element={<CWNsNearby />} />
+                <Route path="/CWNsNearby" element={<CWNsNearby />} />
                 <Route
                     path="/theory"
                     element={<Theory />}
