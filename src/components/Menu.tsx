@@ -44,27 +44,5 @@ const Menu = () => {
     )
 }
 
-// const Menu = () => {
-//     return (
-//         <>
-//             <Nav>
-//                 <NavMenu>
-//                         About
-//                     </NavLink>
-//                     <NavLink to="/contact" activeStyle>
-//                         Contact Us
-//                     </NavLink>
-//                     <NavLink to="/blogs" activeStyle>
-//                         Blogs
-//                     </NavLink>
-//                     <NavLink to="/sign-up" activeStyle>
-//                         Sign Up
-//                     </NavLink>
-//                 </NavMenu>
-//             </Nav>
-//         </>
-//     );
-// };
-
 
 export default Menu
