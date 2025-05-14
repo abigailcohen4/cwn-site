@@ -22,7 +22,7 @@ function App() {
       <Router basename="/cwn-site">
         <Menu />
         <Routes> 
-                <Route path="/cwn-site" element={<Simulator />} />
+                <Route path="/" element={<Simulator />} />
                 <Route path="/CWNsNearby" element={<CWNsNearby />} />
                 <Route
                     path="/theory"
