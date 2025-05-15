@@ -47,7 +47,7 @@ const Menu = () => {
             <Styles.Tab> <Link to={"/how"}>How Does It Work?</Link> </Styles.Tab> |
             <Styles.Tab> <Link to={"/theory"}>Theoretical Analysis</Link> </Styles.Tab> |
             <Styles.Tab> <Link to={"/resources"}>Resources</Link> </Styles.Tab> 
-            <Styles.Img href="https://github.com/abigailcohen4/cwn-site"> <img src="src/assets/github-mark-white.png" /> </Styles.Img>
+            <Styles.Img href="https://github.com/abigailcohen4/cwn-site"> <img src="./assets/github-mark-white.png" /> </Styles.Img>
         </Styles.Menu>
     )
 }

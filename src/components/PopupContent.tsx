@@ -36,7 +36,7 @@ const poplegend = ( ) => {
         <div>
             <h3>LEGEND</h3>
             <p>On the bottom right of your page is the map legend. </p>
-            <img src="src/assets/legend.png" />
+            <img src="./assets/legend.png" />
             <p>The layers High Sites, Routers, Wired Access Points, and Mesh Nodes are editable layer on which you will simulate your own CWN. Each of these
                 represents a specific device within a mesh network. You can read more about the role and rules of each 
                 device on the <Link to={"/How"}>How Does It Work?</Link> page. </p>
@@ -50,7 +50,7 @@ const popeditor = ( ) => {
         <div>
             <h3>FEATURE EDITOR</h3>
             <p>To the left of the legend is the Feature Editor. </p>
-            <img src="src/assets/featureeditor.png" />
+            <img src="./assets/featureeditor.png" />
             <p>The Routers layer contains four editable point layers for you to plan your own community wireless network.
             This layer has four editable point layers for you to plan your own community wireless network. 
                 To add a feature, select "New Feature" below the type of device you want to set down. To edit or delete a feature, click "Select" under "Edit features." 
@@ -64,7 +64,7 @@ const popanalysis = ( ) => {
         <div>
             <h3>LINE OF SIGHT ANALYSIS</h3>
             <p>On the bottom left of your page is the Line of Sight Analysis widget. </p>
-            <img src="src/assets/analysiswidget.png" />
+            <img src="./assets/analysiswidget.png" />
             <p>Mesh networks require line of sight between devices. To check if two devices have an unobstructed path, select "New Analysis." 
                 The first point you select will be the observer (the starting point) and any point after that will be the target. You can select as many target points as you want.  
                 When you ready to check the line of sight, double click on the last target point or press "Done" on the bottom left of the map. If the line is gray, that means one of the two points is not in view, meaning you need to zoom out. 
