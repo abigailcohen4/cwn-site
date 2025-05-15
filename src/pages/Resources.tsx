@@ -6,8 +6,8 @@ function Resources() {
         <h1>Resources</h1>
         <h2>CWNs Around New Jersey</h2>
         <ul>
-          <li>NYC Mesh</li>
-          <li>Philly Community Wireless</li>
+          <li><a href="https://www.nycmesh.net/">NYC Mesh</a></li>
+          <li><a href="https://phillycommunitywireless.org/">Philly Community Wireless</a></li>
         </ul>
         <h2>Building Your Own CWN</h2>
         <ul>
