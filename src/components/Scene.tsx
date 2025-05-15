@@ -15,7 +15,6 @@ const Styles = {
         .map-container {
             width: 100vw;
             height: 90vh;
-            position: absolute;
             bottom: 0;
             left: 0;
             right: 0;

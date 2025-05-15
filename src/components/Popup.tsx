@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import Content from "./PopupContent"
+import Content from "./PopupContent"
 
 const Styles = {
     Popup: styled.div`
@@ -7,7 +8,11 @@ const Styles = {
         left: 0; 
         right: 0; 
         top: 15vh;
+        top: 15vh;
         height: fit-content;
+        max-height: 70vh; 
+
+        width: 30vw;
         max-height: 70vh; 
 
         width: 30vw;
@@ -27,6 +32,9 @@ const Styles = {
         margin: auto;
 
         text-align: center;
+        a{
+            color: #213547; 
+        }
     `
 }
 
@@ -44,7 +52,7 @@ const Popup = ({ popupNum, setPopup }: PopupProps) => {
         <Styles.Popup> 
             <Content popupNum={popupNum} />
             { popupNum === 1 && <button onClick={() => setPopup((popupNum+1))}> Start Tutorial </button>}
-            { popupNum >1 && popupNum <5 && <button onClick={() => setPopup((popupNum+1))}> Next </button>}
+            { popupNum >1 && popupNum <4 && <button onClick={() => setPopup((popupNum+1))}> Next </button>}
             <button onClick={() => (closePopup(setPopup))}> Close </button>
         </Styles.Popup>
     )

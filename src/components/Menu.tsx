@@ -4,9 +4,7 @@ import { NavLink as Link } from "react-router-dom";
 
 const Styles = {
     Menu: styled.div`
-        position: absolute; 
-        top: 2vh; 
-        left: 0; 
+        margin-top: 2vh; 
         width: 100vw;
         
         color: white; 
@@ -17,11 +15,11 @@ const Styles = {
         align-items: center; 
         width: fit-content; 
         padding: 1vw; 
+        font-size: 1.5em;
 
         a{
             text-decoration: none; 
             color: white; 
-            font-size: 1.5vw; 
             font-weight: bold; 
         }
         a:hover{
@@ -30,16 +28,26 @@ const Styles = {
         a:active{
             color: darkblue;
         }
-        `
+        `,
+    Img: styled.a`
+        float: right;
+        text-decoration: none;
+        padding: 1vw; 
+        img{
+            width: 2vw;
+        }
+    `
 }
 
 const Menu = () => {
     return (
         <Styles.Menu>
             <Styles.Tab> <Link to={"/"} > Home </Link> </Styles.Tab> |
-            <Styles.Tab> <Link to={"/CWNsNearby"}>CWNS Nearby</Link> </Styles.Tab> |
+            <Styles.Tab> <Link to="/about">About</Link> </Styles.Tab> |
+            <Styles.Tab> <Link to={"/how"}>How Does It Work?</Link> </Styles.Tab> |
             <Styles.Tab> <Link to={"/theory"}>Theoretical Analysis</Link> </Styles.Tab> |
-            <Styles.Tab> <Link to="/about">About</Link> </Styles.Tab>
+            <Styles.Tab> <Link to={"/resources"}>Resources</Link> </Styles.Tab> 
+            <Styles.Img href="https://github.com/abigailcohen4/cwn-site"> <img src="src/assets/github-mark-white.png" /> </Styles.Img>
         </Styles.Menu>
     )
 }

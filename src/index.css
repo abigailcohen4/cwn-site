@@ -19,17 +19,16 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: underline;
 }
 a:hover {
-  color: #535bf2;
+  text-decoration: none;
 }
 
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -44,9 +43,12 @@ button {
   border: 1px solid transparent;
   padding: 0.6em 1em;
   margin: 0.5em; 
+  padding: 0.6em 1em;
+  margin: 0.5em; 
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
+  background-color: darkgray;
   background-color: darkgray;
   cursor: pointer;
   transition: border-color 0.25s;
@@ -57,4 +59,13 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.textPage{
+    margin-left: 15vw;
+    margin-right: 15vw;
+
+    h1, h2{
+      text-align: center; 
+    }
 }
