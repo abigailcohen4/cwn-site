@@ -21,11 +21,19 @@ In this explanation, I will inspect artifacts, physical objects or features with
   leaving many ports unused. In 2000, Power over Ethernet introduced a mechanism to deliver DC power over Category 5 cable. This feature transformed an increasingly obsolete hardware to a support for a wide range of tools. CWN members witnessing PoE device installations may begin to notice other unseen features within their building or community. Adaptations of obsolete or ignored features can extend to physical sites—from an abandoned lot to a community garden—and social spaces—from a school to a parent-teacher association. 
 </li>
 <h3>Techniques </h3>
-<li><strong>Mesh Network Topology. </strong></li>
+<li><strong>Mesh Network Topology. </strong>CWNs commonly implement a mesh network topology to connect their community. A mesh network is a decentralized network in which each node connects to multiple other nodes. An individual's Internet signal will be stronger and more resilient if their neighbors have routers, too. This topology enables a more reliable connection than a star topology, in which each node connects to a central hub. Star topology resembles a hierarchical power structure, while mesh topology distributes Wi-Fi sources evenly throughout a network. 
+Distributed mesh nodes substantiate a political system of decentralized power. Though some devices perform more functions than others, each device can serve as one's entry point into the network. By design, CWN members do not serve one centralized power; in fact, concentration of Wi-Fi on one node slows down Internet traffic for all connections to that node, making centralization inefficient. Mesh networks dynamically self-organize, as routers chart their own internetwork paths. As such, it grants intercommunity traffic freedom to determine their own connections. 
+If one wanted to desist from their CWN, they could create another one, simply with the installation of another high site, a strong wireless connection from an ISP. This flexibility makes enforcing a dominant authority difficult. A mesh topology coheres with a system that values decentralization and individual choice. 
+</li>
 
 </ol>
 <h2>Works Cited</h2>
-
+      <p>Cisco. “What Is Power over Ethernet (PoE)?” Accessed May 14, 2025. <a href="https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-power-over-ethernet.html">https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-power-over-ethernet.html</a>.
+</p><p>Dafoe, Allan. 2015. “On Technological Determinism: A Typology, Scope Conditions, and a Mechanism.” Science, Technology, & Human Values 40 (6): 1047-76. <a href="https://doi.org/10.1177/0162243915579283">https://doi.org/10.1177/0162243915579283</a>.
+</p><p>NYC Mesh. “3 - Hardware & Firmware.” Accessed May 14, 2025. <a href="https://wiki.nycmesh.net/books/3-hardware-firmware">https://wiki.nycmesh.net/books/3-hardware-firmware</a>.
+</p><p>Philly Community Wireless. “Philly Community Wireless Docs.” Accessed May 14, 2025. <a href="https://docs.phillycommunitywireless.org/en/latest/">https://docs.phillycommunitywireless.org/en/latest/</a>.
+</p><p>Winner, Langdon. 1980. “Do Artifacts Have Politics?” Daedalus (Cambridge, Mass.) 109 (1): 121-36. <a href="http://www.jstor.org/stable/20024652">http://www.jstor.org/stable/20024652</a>.
+</p>
       </div>
     </>
   )
