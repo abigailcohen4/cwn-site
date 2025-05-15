@@ -1,1 +1,0 @@
-import{aO as f,g5 as c,g6 as p,al as v}from"./index-BsXZDNwk.js";async function g(a,i,o){const e=f(a),t=i.toJSON(),r=c(e.query,{query:p({...t,f:"json"}),...o,authMode:"immediate",method:"post"}),s=`${e.path}/create`,{data:n}=await v(s,r),{versionName:d,versionGuid:m,...u}=n.versionInfo;return{...u,versionIdentifier:{name:d,guid:m}}}export{g as createVersion};
