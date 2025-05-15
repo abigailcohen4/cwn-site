@@ -4,9 +4,7 @@ import { NavLink as Link } from "react-router-dom";
 
 const Styles = {
     Menu: styled.div`
-        position: absolute; 
-        top: 2vh; 
-        left: 0; 
+        margin-top: 2vh; 
         width: 100vw;
         
         color: white; 
@@ -17,6 +15,7 @@ const Styles = {
         align-items: center; 
         width: fit-content; 
         padding: 1vw; 
+        font-size: 1.5em;
 
         a{
             text-decoration: none; 
@@ -35,11 +34,11 @@ const Styles = {
 const Menu = () => {
     return (
         <Styles.Menu>
-            <Styles.Tab> <Link to={"/cwn-site"} > Home </Link> </Styles.Tab> |
+            <Styles.Tab> <Link to={"/"} > Home </Link> </Styles.Tab> |
+            <Styles.Tab> <Link to="/about">About</Link> </Styles.Tab> |
             <Styles.Tab> <Link to={"/How"}>How Does It Work?</Link> </Styles.Tab> |
             <Styles.Tab> <Link to={"/theory"}>Theoretical Analysis</Link> </Styles.Tab> |
             <Styles.Tab> <Link to={"/CWNsNearby"}>CWNS Nearby</Link> </Styles.Tab> |
-            <Styles.Tab> <Link to="/about">About</Link> </Styles.Tab>
         </Styles.Menu>
     )
 }
