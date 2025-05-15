@@ -1,7 +1,7 @@
 import './App.css'
 import Menu from './components/Menu'
 import Simulator from './pages/Simulator'
-import CWNsNearby from './pages/CWNsNearby'
+import Resources from './pages/Resources'
 import Theory from './pages/Theory'
 import About from './pages/About'
 import How from './pages/How'
@@ -23,7 +23,7 @@ function App() {
         <Menu />
         <Routes> 
                 <Route path="/" element={<Simulator />} />
-                <Route path="/CWNsNearby" element={<CWNsNearby />} />
+                <Route path="/Resources" element={<Resources />} />
                 <Route
                     path="/theory"
                     element={<Theory />}
