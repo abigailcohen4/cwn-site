@@ -1,0 +1,1 @@
+import{aO as f,g5 as d,g6 as g,g7 as m,al as p}from"./index-oK64vsa1.js";async function y(e,s,i){const a=f(e),r=d(a.query,{query:g({f:"json"}),...i});s.startsWith("{")&&(s=s.slice(1,-1));const t=m(a.path,"versions",s),{data:o}=await p(t,r),{versionName:n,versionGuid:u,...c}=o;return{...c,versionIdentifier:{name:n,guid:u}}}export{y as getVersion};
