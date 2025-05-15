@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import Content from "./PopupContent"
-import Content from "./PopupContent"
 
 const Styles = {
     Popup: styled.div`

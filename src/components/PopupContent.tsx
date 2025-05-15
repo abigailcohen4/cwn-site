@@ -1,4 +1,6 @@
+import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components"
+
 const Styles = {
     Content: styled.div`
         position: relative; 
