@@ -2,9 +2,10 @@ function CWNsNearby() {
 
   return (
     <>
-      <div>
+      <div className="textPage">
         <h1>CWNs Nearby</h1>
-        <p>Belows is a list of CWNs in or around New Jersey.</p>
+        <p>NYC Mesh.</p>
+        <p>Philly Community Wireless.</p>
       </div>
     </>
   )

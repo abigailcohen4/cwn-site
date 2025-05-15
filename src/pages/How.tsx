@@ -2,12 +2,14 @@ function How() {
 
   return (
     <>
-      <div>
-        <h1>How does it work?</h1>
-        <p>Below will be an explanation of the mesh network implementation.</p>
+      <div className="textPage">
+        <h1>How Does It Work?</h1>
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/8UZlwhiWKmA?si=n8Qewec4diVJJQir" 
+        title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
       </div>
     </>
   )
 }
-
 export default How
